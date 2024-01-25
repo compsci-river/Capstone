@@ -13,3 +13,7 @@ I had an initial idea, but was given a sugestion of a different way to implement
 ![Screenshot (195)](https://github.com/compsci-river/Capstone/assets/77171731/8387b9ea-48b3-4aef-ac52-bdc1e5dc021e)
 
 My implementation seems to produce the same results, and is more efficient, so I believe we will continue with it.
+
+**Progress Report 01/18-01/24**
+
+I did quite a bit of work without a clear understanding of my goals all while motivated by bordom due to insomnia leading to messy and near useless code.

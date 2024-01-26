@@ -6,8 +6,6 @@ I had an initial idea, but was given a sugestion of a different way to implement
 
 ![BatchUpdateScripts](https://github.com/compsci-river/Capstone/assets/77171731/c01e642e-5719-4d16-b81f-0091b73d1e21)
 
-![BatchUpdateTestingScript](https://github.com/compsci-river/Capstone/assets/77171731/a14c40c8-bca2-4a5c-8d9d-3984310f67b6)
-
 ![BatchUpdateTestLogs](https://github.com/compsci-river/Capstone/assets/77171731/1f0d5044-2bd8-4a28-a0f5-235e176aac31)
 
 My implementation seems to produce the same results, and is more efficient, so I believe we will continue with it.

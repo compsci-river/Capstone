@@ -56,12 +56,12 @@ def main():
                    'PINE_GROVE_trafficnow-data (05-11-23).gz']
     
     interval = 600
-    n = 2
+    n = 10
     data = BTDF.BTgzToDF(strDataFolder+strFileName[0])
     minTime = data['TimeStamp'].min()
     maxTime = data['TimeStamp'].max()
 
-    print('Loading first two intervals of 600 seconds from Fawndale dataset.',end='\n\n')
+    print('Loading first ten intervals of 600 seconds from Fawndale dataset.',end='\n\n')
     TestBatchUpdate(data,minTime,interval,n)
 
     

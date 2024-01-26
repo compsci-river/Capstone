@@ -6,15 +6,23 @@ River Sheppard
 
 import pandas as pd
 
+
 def BatchUpdate(data,startTime,endTime, curDictionary):
+    #Creates a subset of the dataframe that meets the time conditions
     df = data.loc[(data['TimeStamp']>=startTime)&(data['TimeStamp']<endTime)]
+    #Loops through the subset
     for index, row in df.iterrows():
+        #Updates the dictionary with key of mac address and value of timestamp
         curDictionary[row['MAC']] = row['TimeStamp']
+    #Returns the updated dictionary
     return curDictionary
 
 def TestBatchUpdate(data,startTime,endTime, curDictionary):
+    #loops through the dataframe
     for index,row in data.iterrows():
-        if row['TimeStamp'] >= startTime and row['TimeStamp'] < endTime:
+        #Checks if the current row meets the time conditions
+        if row['TimeStamp']>=startTime and row['TimeStamp']<endTime:
+            #Updates the dictionary with key of mac address and value of timestamp
             curDictionary[row['MAC']] = row['TimeStamp']
     return curDictionary
 

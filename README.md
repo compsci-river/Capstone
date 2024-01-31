@@ -2,7 +2,7 @@
 
 Worked on the single site sequential processing script again, with a better understanding of the goal.
 
-I had an initial idea, but was given a sugestion of a different way to implement it. I ended up implementing both, and running numerous tests to see which one was better.
+I had an initial idea, but was given a suggestion of a different way to implement it. I ended up implementing both, and running some tests to see which one was better.
 
 ![BatchUpdateScripts](https://github.com/compsci-river/Capstone/assets/77171731/c01e642e-5719-4d16-b81f-0091b73d1e21)
 
